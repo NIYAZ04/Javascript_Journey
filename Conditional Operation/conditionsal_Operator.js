@@ -1,3 +1,3 @@
 // if else statement 
  
-ALl the things are same as other languages 
+//ALL the things are same as C++ languages 
