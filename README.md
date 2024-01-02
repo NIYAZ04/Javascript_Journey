@@ -15,7 +15,7 @@ Feel free to explore the folders and files! Here's how you can navigate this rep
    - Open your terminal.
    - Use the `git clone` command followed by the repository's URL.
      ```
-     git clone https://github.com/your-username/your-repository.git
+     git clone https://github.com/NIYAZ04/Javascript_Journey
      ```
 2. **Clone via SSH (if you have SSH set up):**
    - Use the SSH URL of the repository.
