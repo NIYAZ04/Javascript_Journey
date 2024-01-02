@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Api </title>
+</head>
+<body>
+    
+    <script>
+        const apiRequestURL = 'https://api.github.com/users/niyaz04'
+    
+    const niyaz = new XMLHttpRequest();
+    niyaz.open('GET',apiRequestURL);
+    //console.log(niyaz.readyState) checking the status of api
+    niyaz.onreadystatechange = function(){
+        if ( niyaz.readyState == 4){
+          //  console.log ("Api request Succesfull")
+     //   console.log(this.responseText)// got the data
+
+     const gettingFollowers= JSON.parse(this.responseText)
+     console.log ( gettingFollowers.followers)
+        } // 
+    }
+niyaz.send()
+
+    </script>
+</body>
+</html>
